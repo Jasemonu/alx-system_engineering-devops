@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#This script prints Best School 10 times
+#Using until loop
+
+N=1
+until [ "$N" -gt 10 ]
+do
+	echo "Best School"
+	: $[ N++ ]
+done
