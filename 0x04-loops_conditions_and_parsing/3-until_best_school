@@ -6,5 +6,5 @@ N=1
 until [ "$N" -gt 10 ]
 do
 	echo "Best School"
-	: $[ N++ ]
+	: $(( N++ ))
 done
