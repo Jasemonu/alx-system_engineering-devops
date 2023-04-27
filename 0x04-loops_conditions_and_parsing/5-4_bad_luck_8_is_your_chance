@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#Bash script that loops from 1 to 10 and
+#displays bad luck for the 4th loop iteration
+#displays good luck for the 8th loop iteration
+#displays Best School for the other iterations
+
+N=0
+
+while (( "$N" < 10))
+do
+	if [ "$N" -eq 3 ]
+	then
+		echo "bab luck"
+	elif [ "$N" -eq 7 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	: $(( N++ ))
+done
