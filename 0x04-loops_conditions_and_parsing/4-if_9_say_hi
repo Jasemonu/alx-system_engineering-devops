@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Prints Best School 10 times using a while loop
+#Prins Hi on the 9th iteration
+
+N=0
+while [ "$N" -lt 10 ]
+do
+	if [ "$N" -eq 9 ]
+	then
+		echo "Hi"
+	fi
+	echo "Best School"
+	: $[ N++ ]
+done
