@@ -6,19 +6,19 @@
 #	Otherwise, displays the number
 #	In a list format
 
-for (( NUM=1; NUM<=100; NUM++ ))
+for N in {1..100}
 do
-	if (( NUM % 3 == 0 )) && (( NUM % 5 == 0 ))
+	if (( N % 3 == 0 )) && (( N % 5 == 0 ))
 	then
 		echo "FizzBuzz"
-	elif (( NUM % 3 == 0 ))
+	elif (( N % 3 == 0 ))
 	then
 		echo "Fizz"
-	elif (( NUM % 5 == 0 ))
+	elif (( N % 5 == 0 ))
 	then
 		echo "Buzz"
 	else
-		echo "$NUM"
+		echo "$N"
 	fi
 done
 
