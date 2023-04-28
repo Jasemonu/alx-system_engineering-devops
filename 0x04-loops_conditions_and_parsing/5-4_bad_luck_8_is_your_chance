@@ -6,12 +6,12 @@
 
 N=0
 
-while [ "$N" -lt 10 ]
+while [ $N -lt 10 ]
 do
-	if [ "$N" -eq 3 ]
+	if [ $N -eq 3 ]
 	then
 		echo "bab luck"
-	elif [ "$N" -eq 7 ]
+	elif [ $N -eq 7 ]
 	then
 		echo "good luck"
 	else
