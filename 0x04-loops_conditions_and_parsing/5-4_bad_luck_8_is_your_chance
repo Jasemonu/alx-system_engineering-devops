@@ -6,7 +6,7 @@
 
 N=0
 
-while [ "$N" -le 10 ]
+while [ "$N" -lt 10 ]
 do
 	if [ "$N" -eq 3 ]
 	then
