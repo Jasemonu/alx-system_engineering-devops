@@ -30,13 +30,13 @@ Create a script that lists all local variables and environment variables, and fu
 
 * Create a script that creates a new local variable.
 	
-	* Name:** BEST**
+	* Name: **BEST**
 	* Value: School
 
 ## 7. Global variable
 
 * Create a script that creates a new global variable.
-	* Name: *BEST*
+	* Name: **BEST**
 	* Value: **School**
 
 ## 8. Every addition to true knowledge is an addition to human power
