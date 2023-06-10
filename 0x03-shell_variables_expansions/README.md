@@ -35,8 +35,8 @@ Create a script that creates a new local variable.
 ## 7. Global variable
 
 Create a script that creates a new global variable.
-	* Name: **BEST**
-	* Value: **School**
+	* Name: *BEST*
+	* Value: *School*
 
 ## 8. Every addition to true knowledge is an addition to human power
 
