@@ -3,6 +3,6 @@
 
 exec { 'killmenow':
 	commant => 'pkill killmenow',
-	path    => ['/bin', '/usr/bin'],
+	path    => ['/usr/bin', '/usr/bin'],
 	onlyif  => 'pgrep killmenow',
 }
