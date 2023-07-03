@@ -4,7 +4,7 @@
 # Concepts
 
 *For this project, we expect you to look at these concepts:* 
-* [Load balancer](https://intranet.alxswe.com/concepts/46)
+* [Load balancer](https://www.thegeekstuff.com/2016/01/load-balancer-intro/)
 * [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
 ![Load balancer](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/275/qfdked8.png)
