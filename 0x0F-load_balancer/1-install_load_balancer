@@ -15,7 +15,7 @@ frontend  asemonu.tech
         mode http
         default_backend web_servers
 
-backend backend web_servers
+backend web_servers
         balance roundrobin
         server 189367-web-01 54.237.85.91:80 check
         server 189367-web-02 100.26.209.56:80 check
