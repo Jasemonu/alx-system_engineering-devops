@@ -13,9 +13,9 @@ server_config=\
 frontend  asemonu.tech
         bind *:80
         mode http
-        default_backend_servers
+        default_backend web_servers
 
-backend backend_servers
+backend backend web_servers
         balance roundrobin
         server 189367-web-01 54.237.85.91:80 check
         server 189367-web-02 100.26.209.56:80 check
