@@ -7,7 +7,7 @@
 * [Load balancer](https://www.thegeekstuff.com/2016/01/load-balancer-intro/)
 * [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
-![Load balancer](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/275/qfdked8.png){:height="36px" width="36px"}.
+![Load balancer](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/275/qfdked8.png)
 
 # Resources
 
