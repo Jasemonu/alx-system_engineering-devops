@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-# command used to debug the error
+# command used to debug the error in the docker
 
 sudo servivce apache2 start
