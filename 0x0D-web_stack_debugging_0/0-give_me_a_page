@@ -2,4 +2,4 @@
 
 # command used to debug the error in the docker
 
-sudo servivce apache2 start
+sudo service apache2 start
