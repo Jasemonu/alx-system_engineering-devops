@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# command used to debug the error
+
+sudo servivce apache2 start
