@@ -8,7 +8,7 @@
 * [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 * [How toInstall mysql 5.7](https://dev.mysql.com/doc/refman/5.7/en/checking-gpg-signature.html)
 
-! [MySQL](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
+![MySQL](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
 
 # Resources
 
