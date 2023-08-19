@@ -8,15 +8,11 @@ GUNICORN_PIDS=$(pgrep -f "$GUNICORN_PROCESS")
 
 # Check if there are any Gunicorn processes running
 if [ -z "$GUNICORN_PIDS" ]; then
-    echo "No Gunicorn processes found."
     exit 1
 fi
 
 # Gracefully reload each Gunicorn process
 for PID in $GUNICORN_PIDS; do
-    echo "Reloading Gunicorn process with PID $PID..."
     kill -HUP "$PID"
 done
-
-echo "Gunicorn reload completed."
 
