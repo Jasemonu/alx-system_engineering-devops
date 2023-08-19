@@ -1,5 +1,5 @@
 [Unit]
-Description=Gunicorn process for AirBnB Clone v4
+Description=Gunicorn daemon
 After=network.target
 
 [Service]
