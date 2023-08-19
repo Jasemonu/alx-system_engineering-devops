@@ -1,10 +1,10 @@
-##!/usr/bin/env bash
+#!/usr/bin/env bash
 
 # Specify the Gunicorn process name
 GUNICORN_PROCESS="gunicorn"
 
 # Get the PIDs of the Gunicorn processes
-GUNICORN_PIDS=$(pgrep -f $GUNICORN_PROCESS)
+GUNICORN_PIDS=$(pgrep -f "$GUNICORN_PROCESS")
 
 # Check if there are any Gunicorn processes running
 if [ -z "$GUNICORN_PIDS" ]; then
@@ -15,7 +15,7 @@ fi
 # Gracefully reload each Gunicorn process
 for PID in $GUNICORN_PIDS; do
     echo "Reloading Gunicorn process with PID $PID..."
-    kill -HUP $PID
+    kill -HUP "$PID"
 done
 
 echo "Gunicorn reload completed."
